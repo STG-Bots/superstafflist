@@ -1,0 +1,10 @@
+#loading-screen {
+    height: 100vh;
+}
+#loading-screen[aLoading="true"] {
+    opacity: 1;
+}
+#loading-screen[aLoading="false"] {
+    transition: 2s ease-in-out;
+    opacity: 0;
+}
